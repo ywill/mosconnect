@@ -7,7 +7,7 @@ services:
         uid: 1000
       context: ./
       dockerfile: Dockerfile
-    image: mosconnect
+    image: ywilliam7/mosconnect:latest
     container_name: mosconnect-app
     restart: unless-stopped
     working_dir: /var/www/
